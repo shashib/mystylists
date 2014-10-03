@@ -9,8 +9,6 @@ class CreatePurchases < ActiveRecord::Migration
     	t.string :card
     	t.integer :product_id
     	t.timestamps
-
-      t.timestamps
     end
   end
 end
